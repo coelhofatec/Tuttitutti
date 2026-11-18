@@ -7,7 +7,7 @@
 <meta name="description" content="Tecnologia e conhecimento para quem trabalha com ar-condicionado e refrigeração. Conheça VRFlash, Ordem do Ar, Bruxo do Ar e CalculaAr.">
 <link rel="canonical" href="https://tuttiar.com.br/">
 <meta name="robots" content="index, follow">
-<meta name="theme-color" content="#0F2A33">
+<meta name="theme-color" content="#FAF8F4">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/logo-512.png">
 
@@ -60,33 +60,33 @@
   h1,h2,h3{font-family:var(--head);letter-spacing:-.025em;margin:0}
 
   /* ---------- HERO ---------- */
-  .hero{position:relative;overflow:hidden;color:#fff;background:
-      radial-gradient(900px 480px at 85% 0%,rgba(79,179,174,.30),transparent 60%),
-      radial-gradient(700px 420px at 0% 100%,rgba(183,121,31,.18),transparent 60%),
-      linear-gradient(135deg,#0F2A33 0%,#0b3a40 55%,#0D6E6B 130%)}
+  .hero{position:relative;overflow:hidden;color:var(--navy);background:
+      radial-gradient(900px 480px at 88% 0%,rgba(79,179,174,.30),transparent 60%),
+      radial-gradient(700px 420px at 0% 100%,rgba(183,121,31,.14),transparent 60%),
+      linear-gradient(180deg,#FAF8F4 0%,#E6F1EE 100%)}
   .air{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
-  .air path{fill:none;stroke:#fff;stroke-width:1.5;opacity:.10;stroke-linecap:round}
-  .air path:nth-child(2){opacity:.16;stroke:#4fb3ae}
-  .air path:nth-child(3){opacity:.08}
-  .air path:nth-child(4){opacity:.14;stroke:#d79a3d}
+  .air path{fill:none;stroke:#0D6E6B;stroke-width:1.5;opacity:.22;stroke-linecap:round}
+  .air path:nth-child(2){opacity:.35;stroke:#4fb3ae}
+  .air path:nth-child(3){opacity:.22}
+  .air path:nth-child(4){opacity:.22;stroke:#B7791F}
   .air g{animation:drift 22s ease-in-out infinite alternate}
   @keyframes drift{from{transform:translateX(-30px)}to{transform:translateX(30px)}}
   header{position:relative;padding:28px 0}
   .logo{display:inline-block;line-height:0}
-  .logo img{height:46px;width:auto;display:block}
+  .logo img{height:50px;width:auto;display:block}
   .hero-body{position:relative;padding:72px 0 96px;max-width:760px}
   .rule{height:4px;width:56px;background:var(--brass);border-radius:2px;margin-bottom:26px}
   h1{font-weight:700;line-height:1.02;font-size:clamp(40px,7vw,84px);max-width:15ch}
-  .lead{font-size:clamp(17px,2.2vw,21px);color:#cfe3e1;max-width:56ch;margin:26px 0 0}
-  .btn{display:inline-block;margin-top:34px;background:var(--brass);color:#1b1305;text-decoration:none;font:600 15px var(--body);padding:15px 24px;border-radius:12px;transition:transform .18s,filter .18s}
+  .lead{font-size:clamp(17px,2.2vw,21px);color:var(--muted);max-width:56ch;margin:26px 0 0}
+  .btn{display:inline-block;margin-top:34px;background:var(--teal);color:#fff;text-decoration:none;font:600 15px var(--body);padding:15px 24px;border-radius:12px;transition:transform .18s,filter .18s}
   .btn:hover{transform:translateY(-2px);filter:brightness(1.08)}
-  .btn:focus-visible{outline:2px solid #fff;outline-offset:3px}
+  .btn:focus-visible{outline:2px solid var(--navy);outline-offset:3px}
 
   /* números */
-  .stats{position:relative;background:rgba(255,255,255,.06);border-top:1px solid rgba(255,255,255,.12)}
+  .stats{position:relative;background:var(--teal);color:#fff}
   .stats .wrap{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;padding-top:26px;padding-bottom:26px}
   .stat b{display:block;font:700 clamp(26px,4vw,38px) var(--head);letter-spacing:-.03em}
-  .stat span{color:#a9c2c0;font-size:14px}
+  .stat span{color:#c9ebe7;font-size:14px}
 
   /* ---------- O QUE FAZEMOS ---------- */
   .about{padding:84px 0 24px}
@@ -123,9 +123,9 @@
   .brand:hover .go::after{margin-left:6px}
 
   /* ---------- RODAPÉ ---------- */
-  footer{background:var(--navy2);color:#a9c2c0;font-size:13.5px;padding:34px 0}
+  footer{background:#fff;border-top:1px solid var(--line);color:var(--muted);font-size:13.5px;padding:34px 0}
   footer .wrap{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
-  footer img{height:34px;width:auto;display:block}
+  footer img{height:38px;width:auto;display:block}
 
   @media (max-width:1020px){
     .brands{grid-template-columns:repeat(2,1fr)}
@@ -161,7 +161,7 @@
 
   <div class="wrap">
     <header>
-      <a class="logo" href="./" aria-label="TuttiAr"><img src="assets/logo-horizontal-branco.png" alt="TuttiAr" width="190" height="44"></a>
+      <a class="logo" href="./" aria-label="TuttiAr"><img src="assets/logo-horizontal.png" alt="TuttiAr" width="190" height="44"></a>
     </header>
     <div class="hero-body">
       <div class="rule"></div>
@@ -244,7 +244,7 @@
 
 <footer>
   <div class="wrap">
-    <img src="assets/logo-horizontal-branco.png" alt="TuttiAr" width="150" height="35">
+    <img src="assets/logo-horizontal.png" alt="TuttiAr" width="150" height="35">
     <span>© 2026 TuttiAr. Todos os direitos reservados.</span>
   </div>
 </footer>
